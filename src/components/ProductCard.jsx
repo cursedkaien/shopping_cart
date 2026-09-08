@@ -30,7 +30,7 @@ export default function ProductCart({ product, onAddToCart }) {
           onChange={handleInputChange}
           min={1}
         />
-        <button onClick={handleIncrement}></button>
+        <button onClick={handleIncrement}>+</button>
 
         <button onClick={() => onAddToCart(product, quantity)}>
           Add To Cart
