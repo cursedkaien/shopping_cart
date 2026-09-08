@@ -1,16 +1,34 @@
-# React + Vite
+# ShopCart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small React shopping-cart application built with Vite. Browse products from the Fake Store API, choose a quantity, add products to the cart, update quantities, or remove items.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Home, Shop, and Cart routes
+- Product data fetched from the Fake Store API
+- Cart item counts, quantities, subtotals, and total price
+- Responsive storefront styling
+- Component tests with Vitest and React Testing Library
 
-## React Compiler
+## Getting started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+Open the local URL shown in your terminal (usually `http://localhost:5173`).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Available scripts
+
+| Command | Purpose |
+| --- | --- |
+| `npm run dev` | Start the development server |
+| `npm test` | Run the test suite |
+| `npm run build` | Create a production build |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint` | Run ESLint |
+
+## Tech stack
+
+React, React Router, Vite, Vitest, and React Testing Library.
